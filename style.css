@@ -1,4 +1,44 @@
 #nav-color{
-    background-color: #18bc9c;
+    background-color: #1D013A;
 }
+
+.navbar{
+  padding: 2% 2%;
+}
+
+div {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+
+}
+
+#navbar-header-color a:hover, #navbar-collapse-1 a:hover {
+  color: #3C71CB;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+header{
+  background-color: #3C71CB;
+}
+
+header .container {
+  padding: 10% 25%;
+}
+
+#portfolio{
+  background-color: #fff;
+  color: #1D013A;
+}
+
+
+
+
 
