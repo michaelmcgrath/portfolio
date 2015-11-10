@@ -33,10 +33,41 @@ header .container {
   padding: 10% 25%;
 }
 
-#portfolio{
+#portfolio h2{
   background-color: #fff;
+}
+#portfolio .container{
+  padding: 10% 25%;
+
+}
+#portfolio h2{
   color: #1D013A;
 }
+
+
+#about{
+  background-color: #3C71CB;
+}
+
+#about h2{
+  color: #fff;
+}
+#about .container{
+  padding: 10% 25%;
+}
+
+
+#contact{
+  background-color: #fff;
+}
+#contact .container{
+  padding: 10% 25%;
+}
+#contact h2{
+  color: #1D013A
+}
+
+
 
 
 
