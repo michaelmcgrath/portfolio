@@ -67,6 +67,20 @@ header .container {
   color: #1D013A
 }
 
+#foot {
+  background-color: #3C71CB
+}
+
+.footer-above {
+  color: #fff;
+}
+
+#foot h3{
+display: inline-block;
+}
+
+
+
 
 
 
