@@ -1,9 +1,14 @@
-// $('a[href="#top"]').on('click', function(event) {
-//     var target = $(this.href);
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').animate({
-//             scrollTop: target.offset().top
-//         }, 1000);
-//     }
-// });
+$(document).ready(function(){
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 800, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+});
