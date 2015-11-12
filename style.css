@@ -1,3 +1,7 @@
+body, html{
+  height: 100%;
+}
+
 #nav-color{
     background-color: #1D013A;
 }
@@ -19,6 +23,16 @@ a {
 
 }
 
+section{
+  height: 100%;
+}
+
+section h2{
+  position: relative;
+  top: 50%;
+  transform: translateY(-350%);
+}
+
 #navbar-header-color a:hover, #navbar-collapse-1 a:hover {
   color: #3C71CB;
   background-color: transparent;
@@ -27,6 +41,7 @@ a {
 
 header{
   background-color: #3C71CB;
+  height: 100%;
 }
 
 header .container {
@@ -67,16 +82,35 @@ header .container {
   color: #1D013A
 }
 
-#foot {
-  background-color: #3C71CB
+#contact .row{
+  position: relative;
+  top: 50%;
+  transform: translateY(-30%);
+}
+
+button{
+  position: relative;
+  top: 50%;
+  transform: translateY(180%);
+  right: -22%;
 }
 
 .footer-above {
   color: #fff;
+  background-color: #3C71CB;
+  padding-top: 50px;
 }
 
-#foot h3{
-display: inline-block;
+.footer-above .row{
+  position: relative;
+  top: 50%;
+  transform: translateY(-30%);
+}
+
+.footer-below {
+  color: #fff;
+  background-color: #1D013A;
+  padding: 25px;
 }
 
 
